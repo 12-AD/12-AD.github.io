@@ -110,7 +110,7 @@ Released under the MIT license: http://jsbin.mit-license.org
       let rarity = String.fromCharCode(eval(document.getElementById("rarity").value));
 
       let input = document.getElementById("dummyinput");
-      input.value = `playerchatwheel Radio.Flashbang  "Flashbang out! \u2028\x03\x03${name} \x01has opened a container and found: ${rarity}${starred}${stattrak} ${item} | ${paintkit}"`;
+      input.value = `playerchatwheel CW.WePlanted  "Flashbang out! \u2028\x03\x03${name} \x01has opened a container and found: ${rarity}${starred}${stattrak} ${item} | ${paintkit}"`;
       input.select();
       input.setSelectionRange(0, input.value.length)
       document.execCommand("copy");
